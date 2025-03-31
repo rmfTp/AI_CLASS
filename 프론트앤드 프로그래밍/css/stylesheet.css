@@ -1,8 +1,8 @@
 @charset "UTF-8";
-*{font-size:30px; margin:0;}
+body{font-size:30px; margin:0; display: block;}
 footer{
     width: 100%;
-    position:absolute; 
+    position:absolute;
     bottom: 0;
     text-align: center;
     margin: 0 0 10px 0;
