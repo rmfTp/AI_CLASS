@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');/*Noto Sans KR*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');/*Montserrat*/
+*{
+    margin: 0; padding: 0;
+    list-style: none; text-decoration: none;
+    font:13px #2a2a2a; line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 0; box-sizing: border-box;
+}/*초기화*/
+.num{font:'Montserrat'; font-weight:800;}

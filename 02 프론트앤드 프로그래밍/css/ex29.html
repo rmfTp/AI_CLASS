@@ -16,31 +16,31 @@
         ul li:first-child{background: red;}
         ul li:nth-child(2){background: blue;}
         ul li:last-child{background: green;}
-        .flex1{flex-direction: row;}
-        .flex2{flex-direction: row-reverse;}
-        .flex3{flex-direction: column;}
-        .flex4{flex-direction: column-reverse;}
+        .flex0{align-items: stretch;}
+        .flex1{align-items: flex-start;}
+        .flex2{align-items: flex-end;}
+        .flex3{align-items: center;}
     </style>
-    <h1>flex-direction:row</h1>
+    <h1>align-items:stretch</h1>
+    <ul class="flex0">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+    <h1>align-items:flex-start</h1>
     <ul class="flex1">
         <li>메뉴1</li>
         <li>메뉴2</li>
         <li>메뉴3</li>
     </ul>
-    <h1>flex-direction:row-reverse</h1>
+    <h1>align-items:flex-end</h1>
     <ul class="flex2">
         <li>메뉴1</li>
         <li>메뉴2</li>
         <li>메뉴3</li>
     </ul>
-    <h1>flex-direction:colum</h1>
+    <h1>align-items:center</h1>
     <ul class="flex3">
-        <li>메뉴1</li>
-        <li>메뉴2</li>
-        <li>메뉴3</li>
-    </ul>
-    <h1>flex-direction:colum-reverse</h1>
-    <ul class="flex4">
         <li>메뉴1</li>
         <li>메뉴2</li>
         <li>메뉴3</li>
