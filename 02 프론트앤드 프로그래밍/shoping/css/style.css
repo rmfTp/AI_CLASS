@@ -1,0 +1,14 @@
+html{background: #f8f8f8;}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    div{
+        width: 30%;
+        button{
+            width: 25px; height: 20px;
+        }
+    }
+}
