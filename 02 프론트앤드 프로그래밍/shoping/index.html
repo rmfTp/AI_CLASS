@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>뉴마커스</title>
-    <link rel="stylesheet" type="text/css" href="./css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
-    <header>
+    <header class="clear">
         <div class="left">
             <button class="open_left_menu"></button>
             <button class="top_search"></button>
@@ -16,21 +19,160 @@
         <a href="#"><img src="images/logo.png"></a>
         <div class="right">
             <button class="open_right_menu"></button>
-            <a href="#"></a>
+            <a href="#"><img src="images/cart.png"></a>
         </div>
     </header>
-    <div class="fixed"></div>
-    <menu></menu>
+
+    <div class="fixed">
+        <ul class="bq_menu clear">
+            <li><button class="right_menu"></button></li>
+            <li><a href="#"><img src="images/pen.png"><p>구매후기</p></a></li>
+            <li><a href="#"><img src="images/commentf.png"><p>질문과 답변</p></a></li>
+            <li><a href="#"><img src="images/truckf.png"><p>주문/배송</p></a></li>
+            <li><a href="#"><img src="images/personf.png"><p>로그인</p></a></li>
+        </ul>
+        <a href="#"><img src="images/kakao.png"></a>
+        <a href="#"><img src="images/webhard.png"></a>
+        <a href="#"><img src="images/top.png"></a>
+    </div>
+
+    <menu>
+        <a href="#">제품 구매</a>
+        <a href="#">질문과 답변</a>
+        <a href="#">구매후기</a>
+        <a href="#">고객센터</a>
+    </menu>
+
     <nav>
-        <section class="main_slide"></section>
-        <section class="quick_links"></section>
-        <section class="main_banner_box1">
-            <div class="upper_banner"></div>
-            <div class="downer_banner"></div>
+        <section class="main-banner-wrapper">
+            <div class="main-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="images/slider1.jpg" alt="메인배너 5"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/slider2.jpg" alt="메인배너 5"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/slider3.jpg" alt="메인배너 5"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/slider4.jpg" alt="메인배너 5"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/slider5.jpg" alt="메인배너 5"></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
         </section>
-        <section class="best_prd"></section>
+        
+        <section class="quick_links">
+            <a href='#'>에어간판</a>
+            <a href='#'>실사출력</a>
+            <a href='#'>현수막&amp배너</a>
+            <a href='#'>인쇄홍보물</a>
+            <a href='#'>대량발주건</a>
+            <a href='#'>기획상품</a>
+            <a href='#'>특가상품</a>
+            <a href='#'>마켓</a>
+            <a href='#'>개인결제</a>
+        </section>
+
+        <section class="main_banner_box1">
+            <div class="upper_banner"><a href="#"><img src="images/banner1-1.jpg"></a></div>
+            <div class="bottom_banner">
+                <ul class="bb clear">
+                    <li><a href="#"><img src="images/banner1-2-1.jpg"></a></li>
+                    <li><a href="#"><img src="images/banner1-2-2.jpg"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="best_prd ">
+            <h1>베스트상품</h1>
+            <ul class="clear">
+                <li>
+                    <a href="#">
+                        <img src="images/1-1.jpg">
+                        <ul>
+                            <li><span class="price">110,000</span>원 ~</li>
+                            <li>LED 유선 에어간판 완제품</li>
+                        </ul>
+                        <div class="star">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <span class="review">n개의 리뷰</span>
+                        </div>
+                        <div class="prd_icon">
+                            <img src="images/goods_icon_sales.gif">
+                            <img src="images/goods_icon_order.gif">
+                            <img src="images/good_icon_recomm.gif">
+                            <img src="images/good_icon_popular.gif">
+                            <img src="images/good_icon_best.gif">
+                        </div>
+                    </a>
+                </li>  
+                <li>
+                    <a href="#">
+                        <img src="images/1-1.jpg">
+                        <ul>
+                            <li><span class="price">110,000</span>원 ~</li>
+                            <li>LED 유선 에어간판 완제품</li>
+                        </ul>
+                        <div class="star">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <span class="review">n개의 리뷰</span>
+                        </div>
+                        <div class="prd_icon">
+                            <img src="images/goods_icon_sales.gif">
+                            <img src="images/goods_icon_order.gif">
+                            <img src="images/good_icon_recomm.gif">
+                            <img src="images/good_icon_popular.gif">
+                            <img src="images/good_icon_best.gif">
+                        </div>
+                    </a>
+                </li>  
+                <li>
+                    <a href="#">
+                        <img src="images/1-1.jpg">
+                        <ul>
+                            <li><span class="price">110,000</span>원 ~</li>
+                            <li>LED 유선 에어간판 완제품</li>
+                        </ul>
+                        <div class="star">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <span class="review">n개의 리뷰</span>
+                        </div>
+                    </a>
+                </li>  
+                <li>
+                    <a href="#">
+                        <img src="images/1-1.jpg">
+                        <ul>
+                            <li><span class="price">110,000</span>원 ~</li>
+                            <li>LED 유선 에어간판 완제품</li>
+                        </ul>
+                        <div class="star">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <img src="images/star.png">
+                            <span class="review">n개의 리뷰</span>
+                        </div>
+                    </a>
+                </li>  
+            </ul>
+        </section>
+
         <section class="main_banner_box2"></section>
+
         <section class="best_prd"></section>
+
     </nav>
     <aside class="side_menu_left"></aside>
     <aside class="side_menu_right"></aside>

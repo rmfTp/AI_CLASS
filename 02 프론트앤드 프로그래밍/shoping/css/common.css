@@ -12,3 +12,9 @@ body{
     max-width: 750px; min-width: 350px;
     min-height: 700px;
 }
+section{
+    width: 100%; margin: 0 auto;
+    max-width: 750px; min-width: 350px;
+}
+.clear::after{clear: both; content: ""; visibility: 0; overflow: hidden; width: 0; height: 0;display: none;}
+a{color: #000;}
